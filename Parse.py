@@ -1,6 +1,6 @@
 import pandas
 import dateutil
-import KN309Korzhov1
+import Display
 
 def parse(df):
 # date/time parsing
@@ -18,4 +18,4 @@ def parse(df):
 data_to_parse = pandas.read_csv("DATABASE.csv", sep=';')
 
 parse(data_to_parse)
-KN309Korzhov1.display(data_to_parse)
+Display.display(data_to_parse)
