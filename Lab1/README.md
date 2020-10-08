@@ -1,5 +1,4 @@
-# IntelligentDataAnylysis
-For IDA Labs
+
 # To run Lab1 you must: 
 1. install matplotlib, numpy, pandas
 2. clone repository or download zip
